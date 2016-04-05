@@ -1,0 +1,154 @@
+﻿[2016.04.05-22.37.41:100][  0]Log file open, 04/05/16 17:37:41
+[2016.04.05-22.37.41:100][  0]LogInit:Display: Running engine for game: Business_Casual
+[2016.04.05-22.37.41:100][  0]LogInit:Display: RandInit(-1994735862) SRandInit(-1994735862).
+[2016.04.05-22.37.41:100][  0]LogTaskGraph: Started task graph with 4 named threads and 7 total threads.
+[2016.04.05-22.37.41:100][  0]LogStats: Stats thread started at 0.083721
+[2016.04.05-22.37.41:100][  0]LogInit: Version: 4.9.1-2689999+++depot+UE4-Releases+4.9
+[2016.04.05-22.37.41:100][  0]LogInit: API Version: 2672455
+[2016.04.05-22.37.41:100][  0]LogInit: Compiled (64-bit): Sep 14 2015 04:12:03
+[2016.04.05-22.37.41:100][  0]LogInit: Compiled with Visual C++: 18.00.21005.01
+[2016.04.05-22.37.41:100][  0]LogInit: Build Configuration: Development
+[2016.04.05-22.37.41:100][  0]LogInit: Branch Name: ++depot+UE4-Releases+4.9
+[2016.04.05-22.37.41:100][  0]LogInit: Command line: 
+[2016.04.05-22.37.41:100][  0]LogInit: Base directory: C:/Program Files/Epic Games/4.9/Engine/Binaries/Win64/
+[2016.04.05-22.37.41:100][  0]LogInit: Rocket: 1
+[2016.04.05-22.37.41:109][  0]LogInit: Using libcurl 7.41.0
+[2016.04.05-22.37.41:109][  0]LogInit:  - built for x86_64-pc-win32
+[2016.04.05-22.37.41:109][  0]LogInit:  - supports SSL with WinSSL
+[2016.04.05-22.37.41:109][  0]LogInit:  - other features:
+[2016.04.05-22.37.41:109][  0]LogInit:      CURL_VERSION_SSL
+[2016.04.05-22.37.41:109][  0]LogInit:      CURL_VERSION_IPV6
+[2016.04.05-22.37.41:109][  0]LogInit:      CURL_VERSION_ASYNCHDNS
+[2016.04.05-22.37.41:109][  0]LogInit:      CURL_VERSION_LARGEFILE
+[2016.04.05-22.37.41:109][  0]LogInit:      CURL_VERSION_IDN
+[2016.04.05-22.37.41:109][  0]LogInit:  CurlRequestOptions (configurable via config and command line):
+[2016.04.05-22.37.41:109][  0]LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+[2016.04.05-22.37.41:109][  0]LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+[2016.04.05-22.37.41:109][  0]LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+[2016.04.05-22.37.41:109][  0]LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+[2016.04.05-22.37.41:117][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2016.04.05-22.37.41:125][  0]LogInit: Object subsystem initialized
+[2016.04.05-22.37.41:128][  0]LogInit: Selected Device Profile: [Windows]
+[2016.04.05-22.37.41:128][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2016.04.05-22.37.41:138][  0]LogInit: Computer: MELPC
+[2016.04.05-22.37.41:138][  0]LogInit: User: Benjamin
+[2016.04.05-22.37.41:138][  0]LogInit: CPU Page size=4096, Cores=4
+[2016.04.05-22.37.41:138][  0]LogInit: High frequency timer resolution =3.117918 MHz
+[2016.04.05-22.37.41:138][  0]LogMemory: Memory total: Physical=12.0GB (12GB approx)
+[2016.04.05-22.37.41:138][  0]LogMemory: Platform Memory Stats for Windows
+[2016.04.05-22.37.41:138][  0]LogMemory: Process Physical Memory: 53.87 MB used, 53.87 MB peak
+[2016.04.05-22.37.41:138][  0]LogMemory: Process Virtual Memory: 57.43 MB used, 57.43 MB peak
+[2016.04.05-22.37.41:138][  0]LogMemory: Physical Memory: 4807.48 MB used, 12243.34 MB total
+[2016.04.05-22.37.41:138][  0]LogMemory: Virtual Memory: 373.18 MB used, 134217728.00 MB total
+[2016.04.05-22.37.41:171][  0]LogTextLocalizationManager: No specific translations for ('en-US') exist, so ('en') translations will be used.
+[2016.04.05-22.37.41:931][  0]LogD3D11RHI: Found D3D11 adapter 0: AMD Radeon HD 8570 (Feature Level 11_0)
+[2016.04.05-22.37.41:931][  0]LogD3D11RHI: Adapter has 2027MB of dedicated video memory, 0MB of dedicated system memory, and 6121MB of shared system memory, 1 output[s]
+[2016.04.05-22.37.41:933][  0]LogD3D11RHI: Found D3D11 adapter 1: Microsoft Basic Render Driver (Feature Level 11_0)
+[2016.04.05-22.37.41:933][  0]LogD3D11RHI: Adapter has 0MB of dedicated video memory, 0MB of dedicated system memory, and 6121MB of shared system memory, 0 output[s]
+[2016.04.05-22.37.41:933][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2016.04.05-22.37.41:941][  0]LogD3D11RHI: !Direct3DDevice
+[2016.04.05-22.37.41:941][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2016.04.05-22.37.41:948][  0]LogD3D11RHI: Async texture creation disabled: no driver support
+[2016.04.05-22.37.41:960][  0]LogShaderCompilers: Guid format shader working directory is 15 characters bigger than the processId version (../../../../../../Users/Benjamin/Documents/Unreal Projects/Business_Casual/Intermediate/Shaders/WorkingDirectory/1728/).
+[2016.04.05-22.37.41:960][  0]LogShaderCompilers: Cleaned the shader compiler working directory '../../../../../../Users/Benjamin/Documents/Unreal Projects/Business_Casual/Intermediate/Shaders/tmp/CBE053DE4700FE851C46A0ABAD7735BB/'.
+[2016.04.05-22.37.41:960][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2016.04.05-22.37.43:235][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2016.04.05-22.37.43:241][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2016.04.05-22.37.43:247][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2016.04.05-22.37.43:253][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2016.04.05-22.37.43:259][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2016.04.05-22.37.43:263][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2016.04.05-22.37.43:266][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2016.04.05-22.37.43:270][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2016.04.05-22.37.43:274][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2016.04.05-22.37.43:277][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2016.04.05-22.37.43:281][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2016.04.05-22.37.43:285][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2016.04.05-22.37.43:285][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2016.04.05-22.37.43:304][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2016.04.05-22.37.43:307][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2016.04.05-22.37.43:310][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2016.04.05-22.37.43:315][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2016.04.05-22.37.43:315][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2016.04.05-22.37.43:414][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2016.04.05-22.37.45:908][  0]LogDerivedDataCache: Loaded boot cache 2.49s 45MB C:/Users/Benjamin/AppData/Local/UnrealEngine/4.9/DerivedDataCache/Boot.ddc.
+[2016.04.05-22.37.45:908][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Benjamin/AppData/Local/UnrealEngine/4.9/DerivedDataCache/Boot.ddc
+[2016.04.05-22.37.45:908][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Benjamin/Documents/Unreal Projects/Business_Casual/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2016.04.05-22.37.45:908][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2016.04.05-22.37.45:908][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/Benjamin/Documents/Unreal Projects/Business_Casual/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2016.04.05-22.37.45:908][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2016.04.05-22.37.46:068][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2016.04.05-22.37.46:080][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Benjamin/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2016.04.05-22.37.46:292][  0]LogInit: Selected Device Profile: [Windows]
+[2016.04.05-22.37.46:294][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2016.04.05-22.37.46:418][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2016.04.05-22.37.46:418][  0]LogMeshUtilities: No automatic mesh merging module available
+[2016.04.05-22.37.46:829][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2016.04.05-22.37.59:698][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2016.04.05-22.38.00:107][  0]LogAssetRegistry: FAssetRegistry took 0.0108 seconds to start up
+[2016.04.05-22.38.01:192][  0]SourceControl: Info Source control is disabled
+[2016.04.05-22.38.01:192][  0]SourceControl: Info Source control is disabled
+[2016.04.05-22.38.01:206][  0]SourceControl: Info Source control is disabled
+[2016.04.05-22.38.01:219][  0]SourceControl: Info Source control is disabled
+[2016.04.05-22.38.02:041][  0]LogLinker:Warning: Asset '../../../Engine/Plugins/Runtime/LeapMotionController/Content/LM_PassthroughMaterial.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2016.04.05-22.38.02:218][  0]LogObj: 28361 objects as part of root set at end of initial load.
+[2016.04.05-22.38.02:218][  0]LogUObjectAllocator: 6038864 out of 0 bytes used by permanent object pool.
+[2016.04.05-22.38.02:295][  0]LogEngine: Initializing Engine...
+[2016.04.05-22.38.02:298][  0]LogHMD: Can't find Oculus library dev build: is proper Runtime installed? Version: 0.7.0.0
+[2016.04.05-22.38.02:321][  0]LogHMD: SteamVR failed to initialize.  Err: 108
+[2016.04.05-22.38.02:943][  0]LogAIModule: Creating AISystem for world NewWorld
+[2016.04.05-22.38.02:949][  0]LogInit: XAudio2 using 'Speakers / Headphones (IDT High Definition Audio CODEC)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.04.05-22.38.02:956][  0]LogInit: FAudioDevice initialized.
+[2016.04.05-22.38.02:995][  0]LogDerivedDataCache: Saved boot cache 0.04s 45MB C:/Users/Benjamin/AppData/Local/UnrealEngine/4.9/DerivedDataCache/Boot.ddc.
+[2016.04.05-22.38.03:002][  0]LogInit: Texture streaming: Enabled
+[2016.04.05-22.38.03:011][  0]LogAnalytics: Creating configured Analytics provider AnalyticsET
+[2016.04.05-22.38.03:011][  0]LogAnalytics: [UEEditor.Rocket.Release] APIServer = http://et2.epicgames.com/ET2/. AppVersion = 4.9.1-2689999+++depot+UE4-Releases+4.9
+[2016.04.05-22.38.03:011][  0]LogAnalytics: [UEEditor.Rocket.Release] SetUserId 4f012c8c48eba75940e9c2b8fc86be41|27892157cd5d443ca404e66b6d9121a4|d12ff650-86ee-4dff-b6b4-37bbb7d09a29
+[2016.04.05-22.38.03:011][  0]LogAnalytics: [UEEditor.Rocket.Release] AnalyticsET::StartSession
+[2016.04.05-22.38.03:047][  0]LogInit: Transaction tracking system initialized
+[2016.04.05-22.38.03:090][  0]BlueprintLog: New page: Editor Load
+[2016.04.05-22.38.05:081][  0]LocalizationService: Info Localization service is disabled
+[2016.04.05-22.38.06:078][  0]LogLinker:Warning: Can't find file '/Game/2DSideScrollerBP/2DSideScrollerOverview'
+[2016.04.05-22.38.06:078][  0]LogLinker:Warning: Can't find file '/Game/2DSideScrollerBP/2DSideScrollerOverview'
+[2016.04.05-22.38.06:078][  0]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/2DSideScrollerBP/2DSideScrollerOverview.2DSideScrollerOverview_C'
+[2016.04.05-22.38.06:316][  0]LogConsoleResponse:Display: 
+[2016.04.05-22.38.06:993][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Benjamin/Documents/Unreal Projects/Business_Casual/Content/' took 0.01s
+[2016.04.05-22.38.06:993][  0]LogCook:Display: Done creating registry. It took  0.00s.
+[2016.04.05-22.38.07:365][  0]SourceControl: Info Source control is disabled
+[2016.04.05-22.38.07:365][  0]Cmd: MAP LOAD FILE="../../../../../../Users/Benjamin/Documents/Unreal Projects/Business_Casual/Content/TwinStickBP/Maps/TwinStickExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2016.04.05-22.38.07:366][  0]LightingResults: New page: Lighting Build
+[2016.04.05-22.38.07:369][  0]MapCheck: New page: Map Check
+[2016.04.05-22.38.07:369][  0]LightingResults: New page: Lighting Build
+[2016.04.05-22.38.07:380][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000021F45BDE160
+[2016.04.05-22.38.07:608][  0]LogLinker:Warning: Asset '../../../../../../Users/Benjamin/Documents/Unreal Projects/Business_Casual/Content/TwinStickBP/Blueprints/TwinStickPawn.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2016.04.05-22.38.07:610][  0]LogLinker:Warning: Asset '../../../../../../Users/Benjamin/Documents/Unreal Projects/Business_Casual/Content/TwinStickBP/Blueprints/TwinStickProjectile.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2016.04.05-22.38.11:953][  0]LogAIModule: Creating AISystem for world TwinStickExampleMap
+[2016.04.05-22.38.12:440][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2016.04.05-22.38.12:483][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2016.04.05-22.38.12:532][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 49.046ms to complete.
+[2016.04.05-22.38.12:532][  0]LogFileHelpers: Loading map 'TwinStickExampleMap' took 5.167
+[2016.04.05-22.38.13:915][  0]LogCollectionManager: Loaded 0 collections in 0.005018 seconds
+[2016.04.05-22.38.14:116][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Benjamin/Documents/Unreal Projects/Business_Casual/Saved/Collections/' took 0.01s
+[2016.04.05-22.38.14:116][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Benjamin/Documents/Unreal Projects/Business_Casual/Content/Developers/Benjamin/Collections/' took 0.01s
+[2016.04.05-22.38.14:116][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Benjamin/Documents/Unreal Projects/Business_Casual/Content/Collections/' took 0.01s
+[2016.04.05-22.38.14:116][  0]LogContentBrowser: Native class hierarchy populated in 0.0291 seconds. Added 1867 classes and 333 folders.
+[2016.04.05-22.38.14:300][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000003 seconds
+[2016.04.05-22.38.14:525][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2016.04.05-22.38.15:708][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0007 seconds. Added 0 classes and 0 folders.
+[2016.04.05-22.38.15:909][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0004 seconds. Added 1 classes and 2 folders.
+[2016.04.05-22.38.18:460][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2016.04.05-22.38.19:288][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2016.04.05-22.38.19:408][  0]LogLoad: Full Startup: 38.86 seconds (BP compile: 0.96 seconds)
+[2016.04.05-22.38.20:928][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2016.04.05-22.38.22:120][  0]LogRenderer: Reallocating scene render targets to support 1208x576 (Frame:2).
+[2016.04.05-22.38.27:933][ 15]LogAssetRegistry: Asset discovery search completed in 27.8369 seconds
+[2016.04.05-22.38.27:934][ 15]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2016.04.05-22.38.27:934][ 15]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000075 seconds (updated 0 objects)
+[2016.04.05-22.39.35:788][950]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.04.05-22.39.35:820][950]PIE: New page: PIE session: TwinStickExampleMap (Apr 5, 2016, 12:39:35 PM)
+[2016.04.05-22.39.35:820][950]LogPlayLevel: Creating play world package: /Game/TwinStickBP/Maps/UEDPIE_0_TwinStickExampleMap
+[2016.04.05-22.39.35:857][950]LogPlayLevel: PIE: StaticDuplicateObject took: (0.036829s)
+[2016.04.05-22.39.35:858][950]LogAIModule: Creating AISystem for world TwinStickExampleMap
+[2016.04.05-22.39.35:858][950]LogPlayLevel: PIE: World Init took: (0.000788s)
+[2016.04.05-22.39.35:859][950]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap to /Game/TwinStickBP/Maps/UEDPIE_0_TwinStickExampleMap.TwinStickExampleMap (0.038755s)
+[2016.04.05-22.39.35:931][950]LogInit: XAudio2 using 'Speakers / Headphones (IDT High Definition Audio CODEC)' :
